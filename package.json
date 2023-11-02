@@ -1,0 +1,28 @@
+{
+  "name": "cicd-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/meet-goyani/node-cicd-heroku#readme",
+  "scripts": {
+    "test": "jest src/app.test.js",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meet-goyani/node-cicd-heroku"
+  },
+  "bugs": {
+    "url": "https://github.com/meet-goyani/node-cicd-heroku/issues"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jest-circus": "^29.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
